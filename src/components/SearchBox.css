@@ -1,0 +1,73 @@
+.SearchBox {
+	width: 44.791666666667%;
+	min-width: 36em;
+	padding: 0 0 40px;
+	background-color: rgba(255, 255, 255, .6);
+	margin: 0 auto;
+	border: 1px solid #fff;
+	overflow: hidden;
+	max-width: 36em;
+	text-align: center;
+}
+
+.searchFormContainer {
+	width: 78.682170542636%;
+	margin: 0 auto;
+	/*display: flex;*/
+}
+
+.searchLabel, .searchInput, .searchButton {
+	/*flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: baseline;*/
+	/*vertical-align: middle;*/
+}
+
+.searchInput {
+	position: relative;
+}
+
+.searchInputField {
+	width: 70%;
+    padding: 0 10px;
+    height: 44px;
+    -webkit-appearance: none;
+    border: 0;
+}
+
+.searchInputField:focus {
+	outline-offset: 0px;
+}
+
+.searchButton {
+	width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+}
+
+.searchButton.e-icon:before, 
+.searchButton.e-icon-before:before, 
+.searchButton.e-icon-after:after  {
+	font-size: 2.2em;
+	color: #c7dd34;
+}
+
+.searchButton i {
+	/*font-size: 3em;*/
+    color: #c7dd34;
+}
+
+.searchClear {
+	position: absolute;
+	width: 20px;
+    right: 8px;
+    height: 42;
+    background: white;
+}
+
+.searchClear.e-icon:before, 
+.searchClear.e-icon-before:before, 
+.searchClear.e-icon-after {
+	padding-top: 10px;
+}
