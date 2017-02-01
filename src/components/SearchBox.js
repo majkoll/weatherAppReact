@@ -95,6 +95,7 @@ class SearchBox extends Component {
 					<label className="searchLabel">Location:</label>
 					<span className="searchInput">
 						<input
+							autoFocus
 							className="searchInputField"
 							type="text"
 							ref={input => {this.input = input}}
